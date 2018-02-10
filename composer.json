@@ -1,0 +1,24 @@
+{
+    "name": "EruliaF-NMG/TestPackTest",
+    "description": "EruliaF-NMG/TestPackTest Laravel package",
+    "authors": [
+        {
+            "name": "EruliaF-NMG",
+            "email": "nisal.nmg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "EruliaFNMG\\TestPack\\": "packages/EruliaFNMG/TestPack/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EruliaFNMG\\TestPack\\TestPackServiceProvider"
+            ]            
+        }
+    }
+}
